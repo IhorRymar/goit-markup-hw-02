@@ -1,0 +1,242 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ШАПКА */
+
+.header {
+  background-color: #ffffff;
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+.accent-color {
+  color: var(--accent-color);
+}
+
+.header-item > .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-item > .link:hover,
+.header-item > .link:focus {
+  color: var(--accent-color);
+}
+
+.header-item > .current-item {
+  color: var(--accent-color);
+}
+
+/* КОНТАКТЫ */
+
+.cntc-list-item .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.cntc-list-item > .link:hover,
+.cntc-list-item > .link:focus {
+  color: var(--accent-color);
+}
+
+/* ШАПКА-ГЕРОЙ */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.order-btn {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* ОФОРМЛЕНИЕ ТИТЛА СЕКЦИЙ */
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* ОСОБЕННОСТИ */
+
+.specifics-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.specifics-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* НАША КОМАНДА */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* КНОПКИ ПОРТФОЛИО */
+
+.ws-btn,
+.app-btn,
+.design-btn,
+.marketing-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.all-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.ws-btn:hover,
+.ws-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.app-btn:hover,
+.app-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.design-btn:hover,
+.design-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.marketing-btn:hover,
+.marketing-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* УСЛУГИ ПОРТФОЛИО */
+
+.service-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.service-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+/* ПОДВАЛ */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+
+.address-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail-link,
+.tel-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
